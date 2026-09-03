@@ -1,7 +1,9 @@
 [project]
 name = "crop-prediction"
 version = "0.1.0"
-description = "Add your description here"
+description = '''AI-powered crop recommendation system that predicts the top-5 
+                suitable crops from soil (N, P, K, pH) and climate (temperature, humidity, rainfall) data 
+                using a Random Forest model, served via a Flask REST API.'''
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
